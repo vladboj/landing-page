@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 20px 0px 100px 0px;
+}
+
+.upper-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 700px;
+}
+
+.upper-header .left-logo {
+  height: auto;
+  width: 100px;
+}
+
+.upper-header .right-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.upper-header .right-links a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.lower-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+}
+
+.lower-header .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.lower-header .left .hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.lower-header .left .hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.lower-header .left .sign-up {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.lower-header .right-image {
+  height: auto;
+  width: 400px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 0px 70px 0px;
+}
+
+.content1 .information-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.content1 .pictures {
+  display: flex;
+  gap: 40px;
+}
+
+.content1 img {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #3882f6;
+}
+
+.content1 .pictures div p {
+  width: 200px;
+  text-align: center;
+}
+
+.content2 {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 70px 0px;
+}
+
+.content2 .quote-text {
+  width: 700px;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.content2 .quote-author {
+  text-align: right;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 30px 0px 30px 0px;
+  border-radius: 10px;
+  margin: 50px 300px 50px 300px;
+}
+
+.content3 .call-to-action {
+  display: flex;
+  gap: 150px;
+}
+
+.content3 .call-to-action .left-text {
+  color: #f9faf8;
+}
+
+.content3 .call-to-action .left-text .text-header {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.content3 .call-to-action .right-buy-now {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
+  padding: 2px 20px 2px 20px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: #f9faf8;
+}
+
+.content3 .call-to-action .right-buy-now a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 30px 0px;
+}
+
+.footer p {
+  color: #f9faf8;
+}
