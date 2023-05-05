@@ -4,37 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Landing Page Project</title>
   </head>
   <body>
     <div class="header">
       <div class="upper-header">
-        <img class="left" src="./images/logo.avif" alt="logo" />
-        <div class="right">
-          <a href="https://en.wikipedia.org/wiki/Microphone">About Mics</a>
-          <a
-            href="https://www.soundguys.com/what-to-look-for-in-a-microphone-26035/"
-            >Purchase Guide</a
-          >
-          <a href="https://www.youtube.com/@Podcastage"
-            >Awesome Youtube Channel</a
-          >
-        </div>
+        <img class="left-logo" src="./images/logo.png" alt="logo" />
+        <ul class="right-links">
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Microphone">About Mics</a>
+          </li>
+          <li>
+            <a
+              href="https://www.soundguys.com/what-to-look-for-in-a-microphone-26035/"
+              >Purchase Guide</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Podcastage"
+              >Awesome Youtube Channel</a
+            >
+          </li>
+        </ul>
       </div>
       <div class="lower-header">
         <div class="left">
-          <h1>Mics Are Amazing</h1>
-          <p>
+          <p class="hero-main-text">Mics Are Amazing</p>
+          <p class="hero-secondary-text">
             Everyone should buy an external microphone. This is certainly not a
             subjective and biased opinion.
           </p>
           <button class="sign-up">Sign Up</button>
         </div>
-        <img class="right" src="./images/shiny-mic.jpg" alt="shiny-mic" />
+        <img class="right-image" src="./images/shiny-mic.jpg" alt="shiny-mic" />
       </div>
     </div>
     <div class="content1">
-      <h2>Why you should buy a microphone</h2>
+      <p class="information-header-text">Why you should buy a microphone</p>
       <div class="pictures">
         <div class="picture1">
           <img src="./images/sing.webp" alt="man-singing" />
@@ -55,14 +62,31 @@
       </div>
     </div>
     <div class="content2">
-      <p>"Everybody should buy microphones and invest all their savings in microphone producing companies"</p>
-      <p>-Larry Fink, BlackRock CEO</p>
+      <div class="quote">
+        <p class="quote-text">
+          "Everybody should buy microphones and invest all their savings in
+          microphone producing companies"
+        </p>
+        <p class="quote-author">-Larry Fink, BlackRock CEO</p>
+      </div>
     </div>
     <div class="content3">
-      <h3>Do it right now!</h3>
-      <p>Click the button in order to change your life forever</p>
-      <button class="buy-now">BUY NOW!!!</button>
+      <div class="call-to-action">
+        <div class="left-text">
+          <p class="text-header">Call to action! It's time!</p>
+          <p class="text">
+            Click the button in order to change your life forever!!!
+          </p>
+        </div>
+        <button class="right-buy-now">
+          <a href="https://www.amazon.com/microphone/s?k=microphone"
+            >BUY NOW!!!</a
+          >
+        </button>
+      </div>
     </div>
-    <div class="footer">Copyright © notaconspiracyaboutmics</div>
+    <div class="footer">
+      <p>Copyright © notaconspiracyaboutmics</p>
+    </div>
   </body>
 </html>
