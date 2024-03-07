@@ -1,6 +1,6 @@
 # Flexbox Learning Project
 
-**This is a simple HTML and CSS project created to learn the basics of flexbox.**
+**This is a simple HTML and CSS website created to learn the basics of flexbox.**
 
 
 ## Accessing the Project
