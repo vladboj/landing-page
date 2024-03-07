@@ -2,7 +2,6 @@
 
 **This is a simple HTML and CSS website created to learn the basics of flexbox.**
 
-
 ## Accessing the Project
 
 The project is hosted on GitHub Pages and can be accessed using the following link:
